@@ -1,12 +1,90 @@
-# React + Vite
+# ⚡ Credex Assignment – Modern Footer & Testimonials Component
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean, responsive, and animated **Footer** and **Testimonials** component built using **React**, **Tailwind CSS**, and **GSAP**. Designed specifically for **SaaS platforms**, **landing pages**, and **dashboards** to deliver a modern UI and smooth scroll animations.
 
-Currently, two official plugins are available:
+----------
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+-   ✅ Fully **responsive** layout for mobile, tablet, and desktop
+    
+-   🎨 **Dark mode** support using Tailwind's `dark:` variants
+    
+-   ✨ Smooth **animations** using [GSAP](https://greensock.com/gsap/) and `ScrollTrigger`
+    
+-   ⚙️ Clean component structure with reusable logic
+    
+-   🌐 Social media icons via `react-icons`
+    
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+----------
+
+## 🛠️ Tech Stack
+
+-   **React**
+    
+-   **Tailwind CSS**
+    
+-   **GSAP (GreenSock Animation Platform)**
+    
+-   **React Icons**
+    
+
+----------
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/Vighnesh-Gaddam/Credex-Assignment.git
+cd Credex-Assignment
+npm install
+npm run dev
+```
+
+----------
+
+## 🖼️ Preview
+
+[Preview](https://credex-frontend-assignment.vercel.app/)
+
+----------
+
+## 📁 Project Structure
+
+```
+├── components/
+│   ├── Footer.jsx         # Responsive footer with dark mode
+│   └── Testimonials.jsx   # Scroll-animated testimonial cards
+├── App.jsx
+├── index.css              # Tailwind CSS config
+└── ...
+
+```
+
+----------
+
+## 📌 Customization Tips
+
+-   Update social media links in `Footer.jsx`
+    
+-   Add or modify testimonial content in `Testimonials.jsx`
+    
+-   Change colors and fonts via Tailwind configuration
+    
+
+----------
+
+## 🤝 Credits
+
+-   Animations powered by [GSAP](https://greensock.com/gsap/)
+    
+-   Icons provided by [React Icons](https://react-icons.github.io/react-icons/)
+    
+
+----------
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](https://credex-frontend-assignment.vercel.app/).
+
+----------
